@@ -34,7 +34,7 @@ mod_k becomes {0: -1, 5: 0, 1: 1}<h>
 i = 2, x = 4<h>
 
 prefix = 29<h>
-prefix % k = 29 % 6 = 5<h>
-5 is already in mod_k with index 0<h>
+prefix % k = 29 % 6 = 5<p>
+5 is already in mod_k with index 0<p>
 Check subarray length: 2 - 0 > 1 (True)<h>
 Return True
