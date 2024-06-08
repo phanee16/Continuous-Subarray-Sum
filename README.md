@@ -29,12 +29,12 @@ mod_k becomes {0: -1, 5: 0}
 i = 1, x = 2
 
 prefix = 25
-prefix % k = 25 % 6 = 1
-mod_k becomes {0: -1, 5: 0, 1: 1}
-i = 2, x = 4
+prefix % k = 25 % 6 = 1<h>
+mod_k becomes {0: -1, 5: 0, 1: 1}<h>
+i = 2, x = 4<h>
 
-prefix = 29
-prefix % k = 29 % 6 = 5
-5 is already in mod_k with index 0
-Check subarray length: 2 - 0 > 1 (True)
+prefix = 29<h>
+prefix % k = 29 % 6 = 5<h>
+5 is already in mod_k with index 0<h>
+Check subarray length: 2 - 0 > 1 (True)<h>
 Return True
