@@ -13,28 +13,28 @@ A subarray is a contiguous part of the array.
 An integer x is a multiple of k if there exists an integer n such that x = n * k. 0 is always a multiple of k.
 
 ## Example Walkthrough:
-Consider nums = [23, 2, 4, 6, 7] and k = 6:
+Consider nums = [23, 2, 4, 6, 7] and k = 6:<p>
 
-Initial Setup:
+Initial Setup:<p>
 
-prefix = 0
-mod_k = {0: -1}
-Iteration:
+prefix = 0<p>
+mod_k = {0: -1}<p>
+Iteration:<p>
 
-i = 0, x = 23
+i = 0, x = 23<p>
 
-prefix = 23
-prefix % k = 23 % 6 = 5
-mod_k becomes {0: -1, 5: 0}
-i = 1, x = 2
+prefix = 23<p>
+prefix % k = 23 % 6 = 5<p>
+mod_k becomes {0: -1, 5: 0}<p>
+i = 1, x = 2<p>
 
-prefix = 25
-prefix % k = 25 % 6 = 1<h>
-mod_k becomes {0: -1, 5: 0, 1: 1}<h>
+prefix = 25<p>
+prefix % k = 25 % 6 = 1<p>
+mod_k becomes {0: -1, 5: 0, 1: 1}<p>
 i = 2, x = 4<h>
 
-prefix = 29<h>
+prefix = 29<p>
 prefix % k = 29 % 6 = 5<p>
 5 is already in mod_k with index 0<p>
-Check subarray length: 2 - 0 > 1 (True)<h>
-Return True
+Check subarray length: 2 - 0 > 1 (True)<p>
+Return True<p>
